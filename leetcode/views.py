@@ -35,7 +35,8 @@ class Person:
 def index(response):
     
 
-    driver = webdriver.Chrome(ChromeDriverManager().install())
+#     driver = webdriver.Chrome(ChromeDriverManager().install())
+    driver= webdriver.Chrome()
 
     driver.get("https://github.com/login")
 
