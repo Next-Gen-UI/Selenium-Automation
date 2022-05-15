@@ -36,7 +36,7 @@ def index(response):
     
 
 #     driver = webdriver.Chrome(ChromeDriverManager().install())
-    driver= webdriver.Chrome()
+    driver = webdriver.Chrome(executable_path='/usr/bin/chromedriver')
 
     driver.get("https://github.com/login")
 
